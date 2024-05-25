@@ -1,0 +1,10 @@
+The '__pycache__' folder is an automatically generated directory in Python projects. This folder stores the compiled bytecode of Python modules. Here’s an overview of what the '__pycache__' folder is and its purpose:
+
+Purpose of '__pycache__'
+
+1.Optimization: When a Python script is executed, Python compiles the source code (.py files) to bytecode (.pyc files) to optimize execution. This bytecode is a lower-level, platform-independent representation of your source code.
+
+2.Speed: Storing bytecode in the '__pycache__' folder allows Python to execute your code faster on subsequent runs. Instead of recompiling the source code every time, Python can directly interpret the bytecode if the source code hasn't changed.
+
+
+
